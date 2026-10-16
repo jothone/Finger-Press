@@ -1,0 +1,209 @@
+(pcb "C:\Users\ariel\OneDrive\Desktop\Electronica\Kicad02_10\Placa_definitiva_1\temp-freerouting.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "10.0.6")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  154285 -137482  53512.9 -137482  53512.9 -62625  154285 -62625
+            154285 -137482)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "RF_Module:ESP32-C3-DevKitM-1"
+      (place U1 130000 -70000 front 0 (PN "ESP32-C3-DevKitM-1"))
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (place J5 129500 -121960 front 0 (PN conec.))
+      (place J4 105000 -115460 front 0 (PN conec.))
+      (place J3 93500 -111960 front 0 (PN conec.))
+      (place J2 85500 -101460 front 0 (PN conec.))
+      (place J1 85000 -80725 front 0 (PN conec.))
+    )
+  )
+  (library
+    (image "RF_Module:ESP32-C3-DevKitM-1"
+      (outline (polygon signal 0  24255 -37335  -1395 -37335  -1395 7345  24255 7345))
+      (outline (path signal 120  -1270 1680  24130 1680))
+      (outline (path signal 120  -1270 -37240  -1270 1680))
+      (outline (path signal 120  24130 1680  24130 -37240))
+      (outline (path signal 120  24130 -37240  -1270 -37240))
+      (outline (path signal 100  -1270 1180  -1270 -37235))
+      (outline (path signal 100  -1270 1180  -830 1675))
+      (outline (path signal 100  -1270 -37235  24130 -37235))
+      (outline (path signal 100  4830 7080  18030 7080))
+      (outline (path signal 100  4830 1675  -830 1675))
+      (outline (path signal 100  4830 1675  4830 7080))
+      (outline (path signal 100  18030 7080  18030 1675))
+      (outline (path signal 100  18030 1675  24130 1675))
+      (outline (path signal 100  24130 -37235  24130 1675))
+      (pin Rect[A]Pad_1500.000000x1500.000000_um 1 0 0)
+      (pin Round[A]Pad_1500.000000_um 2 0 -2540)
+      (pin Round[A]Pad_1500.000000_um 3 0 -5080)
+      (pin Round[A]Pad_1500.000000_um 4 0 -7620)
+      (pin Round[A]Pad_1500.000000_um 5 0 -10160)
+      (pin Round[A]Pad_1500.000000_um 6 0 -12700)
+      (pin Round[A]Pad_1500.000000_um 7 0 -15240)
+      (pin Round[A]Pad_1500.000000_um 8 0 -17780)
+      (pin Round[A]Pad_1500.000000_um 9 0 -20320)
+      (pin Round[A]Pad_1500.000000_um 10 0 -22860)
+      (pin Round[A]Pad_1500.000000_um 11 0 -25400)
+      (pin Round[A]Pad_1500.000000_um 12 0 -27940)
+      (pin Round[A]Pad_1500.000000_um 13 0 -30480)
+      (pin Round[A]Pad_1500.000000_um 14 0 -33020)
+      (pin Round[A]Pad_1500.000000_um 15 0 -35560)
+      (pin Round[A]Pad_1500.000000_um 16 22860 -35560)
+      (pin Round[A]Pad_1500.000000_um 17 22860 -33020)
+      (pin Round[A]Pad_1500.000000_um 18 22860 -30480)
+      (pin Round[A]Pad_1500.000000_um 19 22860 -27940)
+      (pin Round[A]Pad_1500.000000_um 20 22860 -25400)
+      (pin Round[A]Pad_1500.000000_um 21 22860 -22860)
+      (pin Round[A]Pad_1500.000000_um 22 22860 -20320)
+      (pin Round[A]Pad_1500.000000_um 23 22860 -17780)
+      (pin Round[A]Pad_1500.000000_um 24 22860 -15240)
+      (pin Round[A]Pad_1500.000000_um 25 22860 -12700)
+      (pin Round[A]Pad_1500.000000_um 26 22860 -10160)
+      (pin Round[A]Pad_1500.000000_um 27 22860 -7620)
+      (pin Round[A]Pad_1500.000000_um 28 22860 -5080)
+      (pin Round[A]Pad_1500.000000_um 29 22860 -2540)
+      (pin Round[A]Pad_1500.000000_um 30 22860 0)
+    )
+    (image Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+      (outline (polygon signal 0  1765 -4315  -1765 -4315  -1765 1765  1765 1765))
+      (outline (path signal 120  -1380 1380  0 1380))
+      (outline (path signal 120  -1380 0  -1380 1380))
+      (outline (path signal 120  -1380 -1270  -1380 -3920))
+      (outline (path signal 120  -1380 -1270  1380 -1270))
+      (outline (path signal 120  -1380 -3920  1380 -3920))
+      (outline (path signal 120  1380 -1270  1380 -3920))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 100  -1270 -3810  -1270 635))
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -3810))
+      (outline (path signal 100  1270 -3810  -1270 -3810))
+      (pin Rect[A]Pad_1700.000000x1700.000000_um 1 0 0)
+      (pin Round[A]Pad_1700.000000_um 2 0 -2540)
+    )
+    (padstack Round[A]Pad_1500.000000_um
+      (shape (circle F.Cu 1500))
+      (shape (circle B.Cu 1500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1700.000000_um
+      (shape (circle F.Cu 1700))
+      (shape (circle B.Cu 1700))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1500.000000x1500.000000_um
+      (shape (rect F.Cu -750 -750 750 750))
+      (shape (rect B.Cu -750 -750 750 750))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700.000000x1700.000000_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net +3V3
+      (pins U1-2 U1-3 J5-1 J4-1 J3-1 J2-1 J1-1)
+    )
+    (net "Net-(J1-Pin_2)"
+      (pins U1-9 J1-2)
+    )
+    (net "Net-(J2-Pin_2)"
+      (pins U1-10 J2-2)
+    )
+    (net "Net-(J3-Pin_2)"
+      (pins U1-5 J3-2)
+    )
+    (net "Net-(J4-Pin_2)"
+      (pins U1-20 J4-2)
+    )
+    (net "Net-(J5-Pin_2)"
+      (pins U1-21 J5-2)
+    )
+    (net "Net-(U1-IO6)"
+      (pins U1-22)
+    )
+    (net "unconnected-(U1-RX-Pad28)"
+      (pins U1-28)
+    )
+    (net GND
+      (pins U1-1 U1-6 U1-8 U1-12 U1-15 U1-16 U1-19 U1-24 U1-27 U1-30)
+    )
+    (net "unconnected-(U1-IO8-Pad25)"
+      (pins U1-25)
+    )
+    (net "unconnected-(U1-RST-Pad7)"
+      (pins U1-7)
+    )
+    (net "Net-(U1-IO10)"
+      (pins U1-11)
+    )
+    (net "Net-(U1-IO19)"
+      (pins U1-17)
+    )
+    (net "Net-(U1-IO7)"
+      (pins U1-23)
+    )
+    (net "Net-(BZ1--)"
+      (pins U1-13 U1-14)
+    )
+    (net "Net-(U1-IO9)"
+      (pins U1-26)
+    )
+    (net "unconnected-(U1-IO2-Pad4)"
+      (pins U1-4)
+    )
+    (net "unconnected-(U1-TX-Pad29)"
+      (pins U1-29)
+    )
+    (net "Net-(U1-IO18)"
+      (pins U1-18)
+    )
+    (class kicad_default +3V3 GND "Net-(BZ1--)" "Net-(J1-Pin_2)" "Net-(J2-Pin_2)"
+      "Net-(J3-Pin_2)" "Net-(J4-Pin_2)" "Net-(J5-Pin_2)" "Net-(U1-IO10)" "Net-(U1-IO18)"
+      "Net-(U1-IO19)" "Net-(U1-IO6)" "Net-(U1-IO7)" "Net-(U1-IO9)" "unconnected-(U1-IO2-Pad4)"
+      "unconnected-(U1-IO8-Pad25)" "unconnected-(U1-RST-Pad7)" "unconnected-(U1-RX-Pad28)"
+      "unconnected-(U1-TX-Pad29)"
+      (circuit
+        (use_via "Via[0-1]_600:300_um")
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+  )
+)
