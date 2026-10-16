@@ -23,7 +23,7 @@ Diseñar e implementar un prototipo electrónico interactivo capaz de medir, reg
 * Incorporar estímulos sonoros para desarrollar una experiencia interactiva.
 * Visualizar los resultados obtenidos durante cada sesión para evaluar el desempeño del usuario.
 
-5. ¿Cómo buscamos que funcione el dispositivo?
+4. ¿Cómo buscamos que funcione el dispositivo?
 * El sistema enciende una luz LED que indica qué tecla debe presionar el paciente (post_ACV).
 * El usuario identifica la tecla y la presiona con el dedo correspondiente.
 * El sensor FSR registra la presión ejercida sobre la tecla.
