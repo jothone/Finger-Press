@@ -16,8 +16,8 @@ Además, se incorporarán estímulos sonoros asociados a las pulsaciones, con el
 Diseñar e implementar un prototipo electrónico interactivo capaz de medir, registrar y visualizar de manera independiente la fuerza ejercida por los dedos durante ejercicios guiados de pulsación, con el propósito de apoyar la evaluación y rehabilitación funcional de la mano en pacientes post-ACV.
 
 3. Objetivos especificos del proyecto
---> Medir la fuerza ejercida por cada dedo mediante sensores FSR.
---> Registrar la fuerza instantánea y máxima alcanzada durante los ejercicios.
+* Medir la fuerza ejercida por cada dedo mediante sensores FSR.
+* Registrar la fuerza instantánea y máxima alcanzada durante los ejercicios.
 --> Detectar posibles activaciones involuntarias de otros dedos durante una pulsación dirigida.
 --> Implementar una secuencia de luces LED que indique al usuario qué tecla debe presionar.
 --> Incorporar estímulos sonoros para desarrollar una experiencia interactiva.
