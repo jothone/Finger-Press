@@ -1,5 +1,5 @@
+### Cuantificación de fuerza e individuación digital en rehabilitación de mano post-ACV
 # Finger-Press
-Cuantificación de fuerza e individuación digital en rehabilitación de mano post-ACV
 Dispositivo interactivo para la rehabilitación y evaluación de la fuerza de los dedos en pacientes post-ACV
 
 1. Descripción del proyecto
