@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MILibreria_piano") (type "KiCad") (uri "${KIPRJMOD}/MILibreria_piano.pretty") (options "") (descr ""))
+	(lib (name "Milibreria") (type "KiCad") (uri "${KIPRJMOD}/Milibreria.pretty") (options "") (descr ""))
+	(lib (name "Placa_definitiva_1") (type "KiCad") (uri "C:/Users/ariel/OneDrive/Desktop/Electronica/Kicad02_10/Placa_definitiva_1.pretty") (options "") (descr ""))
+	(lib (name "MiLibreria") (type "KiCad") (uri "C:/Users/ariel/OneDrive/Desktop/Electronica/MiLibreria.pretty") (options "") (descr ""))
+	(lib (name "MiLibreria") (type "KiCad") (uri "C:/Users/ariel/OneDrive/Desktop/Electronica/MiLibreria.pretty") (options "") (descr ""))
+)
